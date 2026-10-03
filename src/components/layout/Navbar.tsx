@@ -23,6 +23,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry, onOpenVirtualTour
 
   const navLinks = [
     { name: 'About TIS', href: '#about' },
+    { name: 'Awards Book', href: '#awards-book' },
     { name: 'Philosophy', href: '#philosophy' },
     { name: 'Sports Academy', href: '#sports' },
     { name: 'Campus Life', href: '#campus-life' },

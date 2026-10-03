@@ -1,4 +1,4 @@
-import type { StatItem, RankingItem, SportItem, GuestItem, ReviewItem, FaqItem, CollaborationItem } from '../types/tis';
+import type { StatItem, RankingItem, BookAwardItem, SportItem, GuestItem, ReviewItem, FaqItem, CollaborationItem } from '../types/tis';
 
 export const HERO_DATA = {
   badge: "Admissions Open for Academic Year 2026-27 | CBSE Affiliated Co-Ed Boarding",
@@ -84,6 +84,117 @@ export const RANKINGS_DATA: RankingItem[] = [
     source: "Top Co-Educational Boarding School in India by Education Today",
     year: "2025-26",
     highlight: "National Excellence in Co-Ed Boarding"
+  }
+];
+
+export const BOOK_AWARDS_DATA: BookAwardItem[] = [
+  {
+    id: "award-1",
+    pageNumber: 1,
+    rankBadge: "#1",
+    title: "Best Co-Ed Boarding School in Dehradun",
+    category: "Regional Excellence",
+    source: "Education Today — India School Merit Awards",
+    year: "2025-2026",
+    description: "Ranked #1 among all co-educational boarding institutions across Dehradun, evaluating holistic curriculum, pastoral residential care, and student mental wellness.",
+    citation: "Awarded for unrivaled academic rigor, student-to-teacher mentorship ratio of 6:1, and exemplary pastoral boarding standards.",
+    image: "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=800&q=80",
+    metrics: [
+      { label: "Regional Rank", value: "#1 in Dehradun" },
+      { label: "Category", value: "Co-Ed Boarding" },
+      { label: "Survey Score", value: "98.4 / 100" }
+    ],
+    highlight: "Top Academic & Residential Benchmark"
+  },
+  {
+    id: "award-2",
+    pageNumber: 2,
+    rankBadge: "#1",
+    title: "Best Boarding School in North India",
+    category: "Zonal Leadership",
+    source: "Outlook Annual Education National Survey",
+    year: "2025-2026",
+    description: "Recognized as the foremost residential co-educational institution across North India for innovative teaching, modern labs, and leadership grooming.",
+    citation: "Honored by Outlook for outstanding pedagogical innovation, student exchange opportunities, and 100% CBSE board distinction rate.",
+    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80",
+    metrics: [
+      { label: "Zonal Rank", value: "#1 North India" },
+      { label: "Parent Trust", value: "99.2%" },
+      { label: "Boarding Index", value: "Grade A+" }
+    ],
+    highlight: "Highest Parent Satisfaction Score"
+  },
+  {
+    id: "award-3",
+    pageNumber: 3,
+    rankBadge: "#2",
+    title: "Top Residential School in Uttarakhand",
+    category: "State Championship",
+    source: "Education Today & EducationWorld State Rankings",
+    year: "2024-2025",
+    description: "Ranked #2 in the entire state of Uttarakhand for eco-friendly campus infrastructure, pollution-free valley environment, and student safety.",
+    citation: "Recognized for preserving green sustainability across our 22-acre eco-campus while delivering world-class STEM and arts education.",
+    image: "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=800&q=80",
+    metrics: [
+      { label: "State Rank", value: "#2 Uttarakhand" },
+      { label: "Campus Expanse", value: "22 Acres" },
+      { label: "Safety Rating", value: "100% Verified" }
+    ],
+    highlight: "Holistic Infrastructure & Pedagogy"
+  },
+  {
+    id: "award-4",
+    pageNumber: 4,
+    rankBadge: "#4",
+    title: "Top 5 Co-Ed Boarding Schools Across India",
+    category: "National Distinction",
+    source: "National Education Excellence Jury Awards",
+    year: "2025-2026",
+    description: "Ranked #4 among thousands of boarding schools nationwide for all-round character building, international university placements, and sports excellence.",
+    citation: "Distinguished by the jury for setting benchmarks in co-ed boarding security, nutritious organic dining, and 24*7 medical support.",
+    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80",
+    metrics: [
+      { label: "National Rank", value: "#4 All-India" },
+      { label: "Alumni Placements", value: "Global 100" },
+      { label: "Medical Care", value: "24*7 Resident" }
+    ],
+    highlight: "National Excellence in Co-Ed Boarding"
+  },
+  {
+    id: "award-5",
+    pageNumber: 5,
+    rankBadge: "Gold",
+    title: "Excellence in Olympic Sports & Athletics",
+    category: "Sports & Fitness",
+    source: "National Sports & Physical Education Conclave",
+    year: "2024-2025",
+    description: "Awarded the National Sports Laurels for establishing 16+ Olympic standard academies including equestrian, 10M shooting, archery, heated pool, and squash.",
+    citation: "Recognized for producing state and national champions guided by Olympic medalists and national selectors on campus.",
+    image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80",
+    metrics: [
+      { label: "Sports Offered", value: "16+ Olympic" },
+      { label: "National Coaches", value: "Full-Time" },
+      { label: "Medals Won", value: "120+ State/Nat." }
+    ],
+    highlight: "Foundation of TIS — Sports Leadership"
+  },
+  {
+    id: "award-6",
+    pageNumber: 6,
+    rankBadge: "Honor",
+    title: "Modern Gurukul Heritage & Values Award",
+    category: "Cultural & Ethos",
+    source: "Asian Educational Leadership & Vedic Heritage Summit",
+    year: "2025-2026",
+    description: "Honored under the aegis of Rishabh Educational Trust for seamlessly blending ancient Vedic Gurukul mindfulness with 21st-century global technology.",
+    citation: "Celebrated for fostering empathy, leadership integrity, community service, and mindful living through experiential education.",
+    image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80",
+    metrics: [
+      { label: "Ethos", value: "Modern Gurukul" },
+      { label: "Trust Legacy", value: "Rishabh Trust" },
+      { label: "Global Ties", value: "12+ Partners" }
+    ],
+    highlight: "Timeless Wisdom Meets Global Innovation"
   }
 ];
 

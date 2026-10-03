@@ -9,6 +9,7 @@ import { HeroSection } from './components/sections/HeroSection';
 import { QuickEnquiryBanner } from './components/sections/QuickEnquiryBanner';
 import { PhilosophySection } from './components/sections/PhilosophySection';
 import { StatsBentoGrid } from './components/sections/StatsBentoGrid';
+import { AwardsBookSection } from './components/sections/AwardsBookSection';
 import { RankingsShowcase } from './components/sections/RankingsShowcase';
 import { SportsAcademy } from './components/sections/SportsAcademy';
 import { InfluentialGuests } from './components/sections/InfluentialGuests';
@@ -54,6 +55,9 @@ export const AppContent: React.FC = () => {
         <QuickEnquiryBanner onSuccess={() => {}} />
 
         <StatsBentoGrid onOpenEnquiry={openEnquiry} />
+
+        {/* 3D Interactive Awards Book with 6 Turnable Pages */}
+        <AwardsBookSection />
 
         <PhilosophySection />
 

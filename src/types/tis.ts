@@ -15,6 +15,21 @@ export interface RankingItem {
   highlight?: string;
 }
 
+export interface BookAwardItem {
+  id: string;
+  pageNumber: number;
+  rankBadge: string;
+  title: string;
+  category: string;
+  source: string;
+  year: string;
+  description: string;
+  citation: string;
+  image: string;
+  metrics: { label: string; value: string }[];
+  highlight: string;
+}
+
 export interface SportItem {
   id: string;
   name: string;
