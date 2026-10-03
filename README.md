@@ -41,11 +41,17 @@ As specified in the **Frontend Developer Task Brief**, all core requirements and
   - 🏅 **16+ Olympic Sports Academies** (*Archery, Equestrian/Horse Riding, 10M Shooting Range, Heated Pool, Squash, Taekwondo, FIFA Football*)
   - 👨‍🏫 **6:1 Student-to-Teacher Mentorship Ratio**
   - 🏥 **24*7 Resident Medical Assistance & Pastoral Care**
+- **3D Interactive Awards Book (`AwardsBookSection.tsx`)**:
+  - Realistic 3D book cover with embossed gold filigree, crest, and 6 interactive award tiles.
+  - Turnable pages (Page 1 to 6) with 3D perspective, spine shadows, and smooth page-flip animations.
+  - Complete official citations, metrics, and certificates for all 6 major state and national accolades.
 - **Rankings & Awards Showcase:**
   - **#1 Co-Ed Boarding School in Dehradun** (*Education Today*)
   - **#1 Co-Ed Boarding School in North India** (*Outlook*)
   - **#2 in Uttarakhand** (*Education Today*)
   - **#4 All-India Ranking** (*Education Today*)
+  - **National Sports Excellence Laurels** (*16+ Olympic Academies*)
+  - **Modern Gurukul Heritage & Values Leadership Award** (*Asian Education Summit*)
 - **Dignitaries & Olympians on Campus:**
   - *Sakshi Malik (Olympic Medalist & Padma Shri)*
   - *Vishesh Bhriguvanshi (Indian Basketball Team Captain)*
