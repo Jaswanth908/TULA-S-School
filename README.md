@@ -189,3 +189,5 @@ The output will be generated inside the `dist/` directory, optimized and ready f
 ---
 
 *Designed & Developed for Tula's International School, Dehradun.*
+#   T U L A - S - S c h o o l  
+ 
